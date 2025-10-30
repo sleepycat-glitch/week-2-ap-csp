@@ -72,7 +72,11 @@ print(chicago_mayor[1:5])
 #when we get one character, it's called string indexing
 #when we get a string of characters, it's called string slicing
 
-
+# phrase2 = "SUPERCAGEFRAGISLISTCIOUS"
+phrase3 = "supercagefragislistcious"
+print(phrase.upper())
+cut = phrase3[0:5]
+print(cut)
 # # ----------------------------------------
 # # 7. Strings: Advanced Concepts
 # # ----------------------------------------
