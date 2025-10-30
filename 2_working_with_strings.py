@@ -38,11 +38,11 @@ print("Is Uppercase?", phrase.isupper())  # Output: False
 print("Is Uppercase?", name.isupper())
 print("Is Upper?", phrase2.isupper() )
 
-# ----------------------------------------------
-
 
 # # Find the length of the string
 # print("Length of phrase:", len(phrase))  # Output: 14
+phrase = "We hold these truths to be self-evident, that all men are created equal, that they are endowed, by their Creator, with certain unalienable rights, that among these are life, liberty, and the pursuit of happiness."
+print(len(phrase))
 
 # # ----------------------------------------
 # # 3. Indexing and Slicing
