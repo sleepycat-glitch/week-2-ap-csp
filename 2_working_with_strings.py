@@ -51,12 +51,6 @@ print(len(phrase))
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
 # print("Last character:", phrase[-1])  # Output: !
-chicago_mayor = "Johnson"
-# first character = 0
-# last character = -1
-print(chicago_mayor[0])
-print(chicago_mayor[-1])
-print(chicago_mayor[-3])
 
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
@@ -64,19 +58,8 @@ print(chicago_mayor[-3])
 # # Example combining everything:
 # print("Formatted Example:", (greeting + " " + name + "!").upper())
 # # Output: HELLO WORLD!
-print(chicago_mayor[4:])
-#first number in slicing is including the character
-#second number is excluding the character
-print(chicago_mayor[0:4])
-print(chicago_mayor[1:5])
-#when we get one character, it's called string indexing
-#when we get a string of characters, it's called string slicing
 
-# phrase2 = "SUPERCAGEFRAGISLISTCIOUS"
-phrase3 = "supercagefragislistcious"
-print(phrase.upper())
-cut = phrase3[0:5]
-print(cut)
+
 # # ----------------------------------------
 # # 7. Strings: Advanced Concepts
 # # ----------------------------------------
@@ -93,13 +76,11 @@ print(cut)
 # # String Methods
 # # ----------------------------------------
 
-sentence = "Python is fun to learn"
+# sentence = "Python is fun to learn"
 
 # # .split(): Splits the string into a list of words
-words = sentence.split()
-print("Split result:", words)
-words2 = words.join()
-print(words2)
+# words = sentence.split()
+# print("Split result:", words)
 
 # # .format(): Allows inserting values into strings using {}
 # name = "Marvin"
