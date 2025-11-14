@@ -17,3 +17,10 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+question1 = input("What flavor does the beer have?: ")
+question2 = input("What color is the beer?: ")
+import random
+question3 = ["ale", "light", "cream", "foamy"]
+choose_item = random.choice(question3)
+print(f"{question2} {question1} {choose_item}")
